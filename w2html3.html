@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workspace</title>
+    <link rel="stylesheet" href="cssStyleSheet.css">
+    <script src="../script/page2.js"></script>
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo-text">
+                <img src="logo.jpg" alt="logo">
+                <h1>Workspace</h1>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="page1.html"><img src="home.jpg" alt="logo" style="margin-right: 10px;">Home</a></li>
+                    <li><a href="page2.html"><img src="customers.jpg" alt="logo" style="margin-right: 10px;">Customers</a></li>
+                    <li><a href="page3.html" style="background-color: purple;"><img src="departments.jpg" alt="logo" style="margin-right: 10px;">Departments</a></li>
+                    <li><a href="page4.html"><img src="media.jpg" alt="logo" style="margin-right: 10px;">Media</a></li>
+                </ul>
+            </nav>
+            <div class="account">
+                <a href="page5.html">My Account</a>
+            </div>
+        </aside>
+        <header class="header" style="align-items: center;">
+            <input type="text" placeholder="Search in Department"><button><img src="search.jpg" alt="logo" width="30px"></button>
+        </header>
+        <div class="main-content">
+            <section class="tables">
+            <div class="table departments">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Department ID</th>
+                            <th>Department Incharge</th>
+                            <th>Name</th>
+                            <th>Size</th>
+                            <th>Total Media Size</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>JRYT456</td>
+                            <td>UHDG</td>
+                            <td>John</td>
+                            <td>23</td>
+                            <td>2 GB</td>
+                        </tr>
+                        <tr>
+                            <td>JHSAG636</td>
+                            <td>ASDFJ</td>
+                            <td>Jane</td>
+                            <td>45</td>
+                            <td>0.4 GB</td>
+                        </tr>
+                        <tr>
+                            <td>ASJHSA77</td>
+                            <td>SAFEF</td>
+                            <td>Bob</td>
+                            <td>76</td>
+                            <td>200 GB</td>
+                        </tr>
+                        <tr>
+                            <td>KSAHJK366</td>
+                            <td>AFEEE</td>
+                            <td>Mary</td>
+                            <td>87</td>
+                            <td>50 GB</td>
+                        </tr>
+                        <tr>
+                            <td>SAJKHD35</td>
+                            <td>REYER</td>
+                            <td>Karan</td>
+                            <td>76</td>
+                            <td>45 GB</td>
+                        </tr>
+                        <tr>
+                            <td>KKHUASU33</td>
+                            <td>HJHGF</td>
+                            <td>Chrissy</td>
+                            <td>78</td>
+                            <td>500 GB</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          
+                    </tbody>
+                </table>
+            </div>
+                           
+                        </tbody>
+                    </table>
+                    <div class="pagination">
+                        <button id="prev" onclick="prevPage()"><</button>
+                        <span class="box"><p>1</p></span>
+                        <button id="next" onclick="nextPage()">></button>
+                     </div>
+                </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workspace</title>
+    <link rel="stylesheet" href="cssStyleSheet.css">
+    <script src="../script/page5.js"></script>
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo-text">
+                <img src="logo.jpg" alt="logo">
+                <h1>Workspace</h1>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="page1.html"><img src="home.jpg" alt="logo" style="margin-right: 10px;">Home</a></li>
+                    <li><a href="page2.html"><img src="customers.jpg" alt="logo" style="margin-right: 10px;">Customers</a></li>
+                    <li><a href="page3.html"><img src="departments.jpg" alt="logo" style="margin-right: 10px;">Departments</a></li>
+                    <li><a href="page4.html"><img src="media.jpg" alt="logo" style="margin-right: 10px;">Media</a></li>
+                </ul>
+            </nav>
+            <div class="account">
+                <a href="page5.html" style="background-color: purple;">My Account</a>
+            </div>
+        </aside>
+        <header class="header" style="align-items: center;">
+            <input type="text" placeholder="Search in My Account"><button><img src="search.jpg" alt="logo" width="30px"></button>
+        </header>
+        <div class="main-content">
+           <section>
+            <div class="profile-container">
+                <div class="profile-pic">
+                  <img src="myacc.jpg" alt="Profile Picture">
+                  <span class="edit-pic">
+                    <button>Edit</button>
+                  </span>
+                </div>
+                <div class="profile-details">
+                  <div class="field">
+                    <label>Name:</label>
+                    <div class="info-box-container">
+                      <div class="info-box">
+                        <span class="value" id="name">Jon Doe</span>
+                      </div>
+                      <span class="edit-box">
+                        <button><img src="pencil.jpg" alt="logo" style="width: 30px;"></button>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="field">
+                    <label>Email:</label>
+                    <div class="info-box-container">
+                      <div class="info-box">
+                        <span class="value" id="email">jondoe@example.com</span>
+                      </div>
+                      <span class="edit-box">
+                        <button><img src="pencil.jpg" alt="logo" style="width: 30px;"></button>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="field">
+                    <label>Phone Number:</label>
+                    <div class="info-box-container">
+                      <div class="info-box">
+                        <span class="value" id="phone">1234567890</span>
+                      </div>
+                      <span class="edit-box">
+                        <button><img src="pencil.jpg" alt="logo" style="width: 30px;"></button>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="field">
+                    <label>Birthdate:</label>
+                    <div class="info-box-container">
+                      <div class="info-box">
+                        <span class="value" id="birthdate">1990-01-01</span>
+                      </div>
+                      <span class="edit-box">
+                        <button><img src="pencil.jpg" alt="logo" style="width: 30px;"></button>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="buttons">
+                    <button id="save-btn">Save</button>
+                    <button id="cancel-btn">Cancel</button>
+                  </div>
+                </div>
+              </div>          
+           </section> 
+        </div>
+    </div>
+</body>
+</html>
